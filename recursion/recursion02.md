@@ -7,7 +7,7 @@ a comprehensive list of coding problems, categorized by difficulty and concept, 
 4. **Reverse a String**: Reverse a string using recursion.
 5. **Palindrome Check**: Check if a string is a palindrome using recursion.
 6. **Power Calculation**: Compute x^n (x raised to the power n).
-
+      
 ### Intermediate Recursion Problems
 7. **Tower of Hanoi**: Solve the Tower of Hanoi problem.
 8. **Permutations of a String**: Generate all permutations of a given string.
