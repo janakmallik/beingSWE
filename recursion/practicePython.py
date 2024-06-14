@@ -84,6 +84,13 @@ class Node:
 
 def insert(head, key):
     
+<<<<<<< Updated upstream
 
 
 
+=======
+    
+    
+    
+    
+>>>>>>> Stashed changes
