@@ -29,6 +29,7 @@ DataItem* search(int key) {
       ++hashIndex;
       
       // wrap around the table
+      // Ensures the index stays within the table size
       hashIndex %= SIZE; //??
    }
    
