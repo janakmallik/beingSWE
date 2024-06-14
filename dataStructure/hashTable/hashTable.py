@@ -36,3 +36,4 @@
 # Open Addressing: Find another spot in the table (using methods like linear probing, 
 # quadratic probing, or double hashing).
 
+print("hello")
