@@ -44,6 +44,7 @@ int main() {
   insert(25);  // Insert an item with key 25
   insert(64);  // Insert an item with key 64
   insert(22);  // Insert an item with key 22
+  insert(33);  // Insert an item with key 22
 
   // Output the populated hash table
   for (int i = 0; i < SIZE; i++) {
@@ -55,5 +56,4 @@ int main() {
   }
   return 0;
 }
-hello
-hello
+
