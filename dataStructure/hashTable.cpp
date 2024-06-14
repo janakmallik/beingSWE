@@ -44,8 +44,8 @@ int main() {
    DataItem item3 = {64}; // Assuming the key is 64
    DataItem item4 = {22}; // Assuming the key is 22
    
-   // Calculate the hash index for each item and place them in the hash table
    
+   // Calculate the hash index for each item and place them in the hash table
    int hashIndex2 = hashCode(item2.key);
    hashMap[hashIndex2] = &item2;
    
