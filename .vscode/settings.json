@@ -49,5 +49,11 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "C_Cpp.vcFormat.space.beforeEmptySquareBrackets": true,
+  "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
+  "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
+  "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true,
+  "C_Cpp.vcFormat.space.withinLambdaBrackets": true,
+  "C_Cpp.vcFormat.space.withinSquareBrackets": true
 }
