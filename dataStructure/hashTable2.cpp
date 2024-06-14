@@ -55,4 +55,5 @@ int main() {
   }
   return 0;
 }
-test
+hello
+hello
