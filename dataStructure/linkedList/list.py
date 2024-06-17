@@ -47,10 +47,10 @@ print(type(people))
 people = ['Janak', 'Elon', 'Joy', 'Janak']
 newPeople = ['dhaka', 'NYC', 'Mallik']
 
-# people.extend(newPeople)
-# print(people)
+people.extend(newPeople)
+print(people)
 
-# print(type(people))
+print(type(people))
 
 people.extend([newPeople])
 print(people)
@@ -120,3 +120,52 @@ print(people)
 people = ['Janak', 'Elon', 'joy', 'mallik', 'Janak', 'Rajveer']
 people.sort(reverse=True)
 print(people)
+
+myList = ['banana', True, 32, 'apple']
+print(myList)
+
+# IndexError: list index out of range
+item = myList[34]
+print(item)
+
+item = myList[-2]
+print(item)
+
+for i in myList:
+    print(i)
+
+if 'banana' in myList:
+    print('yes')
+else:
+    print('no')
+
+print(len(myList))
+
+myList.append('toy')
+print(myList)
+
+myList.insert(1, 'janak')
+print(myList)
+
+item = myList.pop()
+print(item)
+print(myList)
+
+item = myList.remove(32)
+print(item)
+print(myList)
+
+# ValueError: list.remove(x): x not in list
+item = myList.remove('laptop')
+print(item)
+print(myList)
+
+# slicing
+myList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+a = myList[1:5]
+a = myList[1:]
+a = myList[:5]
+a = myList[::1]
+a = myList[1::2]
+a = myList[::-1]
+print(a)
