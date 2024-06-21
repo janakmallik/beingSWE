@@ -74,10 +74,12 @@ console.log(price)
 console.log(courseName)
 
 {
-  'name': 'janak',
-  'courseName': 'js for everyOne',
+  'name': 'janak'
+  'courseName': 'js for everyOne'
   'price': null
 }
+
+
 
 
 
