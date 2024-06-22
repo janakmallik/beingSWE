@@ -44,7 +44,7 @@ BreakConstructorInitializers: BeforeColon
 BreakInheritanceList: BeforeColon
 ColumnLimit: 80
 CompactNamespaces: false
-ContinuationIndentWidth: 4
+ContinuationIndentWidth: 4  
 Cpp11BracedListStyle: true
 DerivePointerAlignment: false # Make sure the * or & align on the left
 # EmptyLineBeforeAccessModifier: LogicalBlock
@@ -59,7 +59,7 @@ NamespaceIndentation: None
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
 PointerAlignment: Left
-ReflowComments: false
+# ReflowComments: false
 # SeparateDefinitionBlocks: Always   # Only support since clang-format 14
 SpaceAfterCStyleCast: false
 SpaceAfterLogicalNot: false
@@ -80,4 +80,4 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 Standard: c++11
 TabWidth: 2
-UseTab: Never
+# UseTab: Never
