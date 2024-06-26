@@ -1,5 +1,6 @@
 {
     "editor.formatOnSave": true,
+    // "prettier.configPath": ".prettierrc",
     "editor.tabSize": 2,
     "files.associations": {
         "iostream": "cpp",
