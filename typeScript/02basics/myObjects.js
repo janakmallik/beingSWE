@@ -1,9 +1,24 @@
-var User = {
-    name: 'janak',
-    email: 'janak@mail.com',
-    isActive: true
+"use strict";
+// const user = {
+//   name: 'janak',
+//   email: 'janak@mail.com',
+//   isActive: true
+// }
+Object.defineProperty(exports, "__esModule", { value: true });
+var myUser = {
+    _id: '1245',
+    name: 'h',
+    email: 'h@h.com',
+    isActive: false
 };
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
-}
-// createUser()
+// type cardNumber = {
+//   cardnumber: string
+// }
+// type cardDate = {
+//   cardDate: string
+// }
+// type cardDetails = cardNumber &
+//   cardDate & {
+//     cvv: number
+//   }
+myUser.email = 'h@gmail.com';

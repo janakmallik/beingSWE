@@ -1,0 +1,12 @@
+{
+  "name": "beingswe",
+  "version": "1.0.0",
+  "description": "for python - https://books.trinket.io/pfe/index.html ; https://www.py4e.com/html3/01-intro ; https://docs.python.org/3/tutorial/index.html",
+  "main": "z.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

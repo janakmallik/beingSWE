@@ -7,9 +7,9 @@ function getUpper(val: string) {
   return val.toUpperCase()
 }
 
-function signUpUser(name: string, email: string, isPaid: boolean) {}
+function signUpUser(name: string, email: string, isPaid: boolean) { }
 
-let loginUser = (name: string, email: string, isPaid: boolean = false) => {}
+let loginUser = (name: string, email: string, isPaid: boolean = false) => { }
 
 let myValue = addTwo(5)
 getUpper('hitesh')
@@ -42,4 +42,4 @@ function handleError(errmsg: string): never {
   throw new Error(errmsg)
 }
 
-export {}
+export { }
