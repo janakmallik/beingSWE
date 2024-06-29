@@ -16,3 +16,4 @@ rust: https://youtu.be/qP7LzZqGh30
 - operating system
 - revisit mysql, plSql, ralationnal database
 - rust
+
