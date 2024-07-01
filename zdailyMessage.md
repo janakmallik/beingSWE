@@ -1,0 +1,2 @@
+vitual funciton
+inheritance 
