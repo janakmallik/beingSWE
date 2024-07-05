@@ -1,0 +1,126 @@
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'AwesomeProject'.
+> Could not open cp_proj generic class cache for build file 'C:\Users\asus\Documents\reactNative\AwesomeProject\android\build.gradle' (C:\Users\asus\.gradle\caches\8.6\scripts\eg8s6dz6cwm29aqqxmw0mjlki).
+   > BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 66
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3m 50s
+error Failed to install the app. Command failed with exit code 1: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * What went wrong: A problem occurred configuring root project 'AwesomeProject'. > Could not open cp_proj generic class cache for build file 'C:\Users\asus\Documents\reactNative\AwesomeProject\android\build.gradle' (C:\Users\asus\.gradle\caches\8.6\scripts\eg8s6dz6cwm29aqqxmw0mjlki). > BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 66 * Try: > Run with --stacktrace option to get the stack trace. > Run with --info or --debug option to get more log output. > Run with --scan to get full insights. > Get more help at https://help.gradle.org. BUILD FAILED in 3m 50s.
+info Run CLI with --verbose flag for more details.
+PS C:\Users\asus\Documents\reactNative\awesomeproject> 
+
+
+Could not open cp_proj generic class cache for build file
+BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 66 
+
+
+[{
+	"resource": "/C:/Users/Janak Mallik/Documents/GitHub/beingSWE/reactNative/AwesomeProject/node_modules/@react-native/gradle-plugin/build.gradle.kts",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": "0",
+	"severity": 8,
+	"message": "The supplied phased action failed with an exception.\r\njava.io.UncheckedIOException: Could not move temporary workspace (C:\\Users\\Janak Mallik\\Documents\\GitHub\\beingSWE\\reactNative\\AwesomeProject\\node_modules\\@react-native\\gradle-plugin\\.gradle\\8.6\\dependencies-accessors\\423f0288fa7dffe069445ffa4b72952b4629a15a-d7ed41ca-98ca-4e7d-9067-fbc4341a96af) to immutable location (C:\\Users\\Janak Mallik\\Documents\\GitHub\\beingSWE\\reactNative\\AwesomeProject\\node_modules\\@react-native\\gradle-plugin\\.gradle\\8.6\\dependencies-accessors\\423f0288fa7dffe069445ffa4b72952b4629a15a)\r\nCould not move temporary workspace (C:\\Users\\Janak Mallik\\Documents\\GitHub\\beingSWE\\reactNative\\AwesomeProject\\node_modules\\@react-native\\gradle-plugin\\.gradle\\8.6\\dependencies-accessors\\423f0288fa7dffe069445ffa4b72952b4629a15a-d7ed41ca-98ca-4e7d-9067-fbc4341a96af) to immutable location (C:\\Users\\Janak Mallik\\Documents\\GitHub\\beingSWE\\reactNative\\AwesomeProject\\node_modules\\@react-native\\gradle-plugin\\.gradle\\8.6\\dependencies-accessors\\423f0288fa7dffe069445ffa4b72952b4629a15a)\r\nC:\\Users\\Janak Mallik\\Documents\\GitHub\\beingSWE\\reactNative\\AwesomeProject\\node_modules\\@react-native\\gradle-plugin\\.gradle\\8.6\\dependencies-accessors\\423f0288fa7dffe069445ffa4b72952b4629a15a-d7ed41ca-98ca-4e7d-9067-fbc4341a96af -> C:\\Users\\Janak Mallik\\Documents\\GitHub\\beingSWE\\reactNative\\AwesomeProject\\node_modules\\@react-native\\gradle-plugin\\.gradle\\8.6\\dependencies-accessors\\423f0288fa7dffe069445ffa4b72952b4629a15a",
+	"source": "Java",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1
+}]
+
+
+warn Attempting to debug JS in Flipper (deprecated). This requires Flipper to be installed on your system to handle the 'flipper://' URL scheme.
+info In React Native 0.74, Flipper is no longer included for new React Native projects. The Flipper React Native plugin is also unsupported. You can continue to use Flipper to debug your app's JavaScript code, however we recommend switching to a modern alternative.
+See https://reactnative.dev/docs/debugging#opening-the-debugger.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+npx react-native doctor
+---------------------------------------------------
+PS C:\Users\Janak Mallik\Documents\GitHub\beingSWE\reactNative\AwesomeProject\android> npx react-native doctor
+Common
+ ✓ Node.js - Required to execute JavaScript code
+ ✖ yarn - Required to install NPM dependencies
+   - Version found: N/A
+   - Version supported: >= 1.10.x
+ ✓ npm - Required to install NPM dependencies
+ ✓ Metro - Required for bundling the JavaScript code
+
+Android
+ ✓ Adb - Required to verify if the android device is attached correctly
+ ✖ JDK - Required to compile Java code
+   - Version found: 22.0.1
+   - Version supported: >= 17 <= 20
+ ✖ Android Studio - Required for building and installing your app on Android
+ ✓ ANDROID_HOME - Environment variable that points to your Android SDK installation
+ ✓ Gradlew - Build tool required for Android builds
+ ✖ Android SDK - Required for building and installing your app on Android
+   - Versions found: N/A
+   - Version supported: 34.0.0
+
+Errors:   4
+Warnings: 0
+
+Usage
+ › Press f to try to fix issues.
+ › Press e to try to fix errors.
+ › Press w to try to fix warnings.
+ › Press Enter to exit.
+--------------------------------------------------------------------------------------------------------------------------
+PS C:\Users\Janak Mallik\Documents\GitHub\beingSWE\reactNative\AwesomeProject> npx react-native run-android --verbose
+info A dev server is already running for this project on port 8081.
+The system cannot find the path specified.
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+debug Running command "cd android && gradlew.bat app:installDebug -PreactNativeDevServerPort=8081"
+Starting a Gradle Daemon, 2 incompatible and 5 stopped Daemons could not be reused, use --status for details
+This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Observed package id 'platform-tools' in inconsistent location 'C:\Android\sdk\platform-tools' (Expected 'C:\Android\sdk\platform-tools\platform-tools')
+Observed package id 'platform-tools' in inconsistent location 'C:\Android\sdk\platform-tools' (Expected 'C:\Android\sdk\platform-tools\platform-tools')   
+Checking the license for package Android SDK Build-Tools 34 in C:\Android\sdk\platform-tools\licenses
+Warning: License for package Android SDK Build-Tools 34 not accepted.
+Checking the license for package Android SDK Platform 34 in C:\Android\sdk\platform-tools\licenses
+Warning: License for package Android SDK Platform 34 not accepted.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.6/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+5 actionable tasks: 3 executed, 2 up-to-date
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':app:compileDebugJavaWithJavac'.
+> Could not determine the dependencies of null.
+   > Failed to install the following Android SDK packages as some licences have not been accepted.
+        platforms;android-34 Android SDK Platform 34
+        build-tools;34.0.0 Android SDK Build-Tools 34
+     To build this project, accept the SDK license agreements and install the missing components using the Android Studio SDK Manager.
+     All licenses can be accepted using the sdkmanager command line tool:
+     sdkmanager --licenses
+     Or, to transfer the license agreements from one workstation to another, see https://developer.android.com/studio/intro/update.html#download-with-gradle
+
+     Using Android SDK: C:\Android\sdk\platform-tools
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 19s
+error Failed to install the app. Please accept all necessary Android SDK licenses using Android SDK Manager: "$ANDROID_HOME/tools/bin/sdkmanager --licenses.".
+PS C:\Users\Janak Mallik\Documents\GitHub\beingSWE\reactNative\AwesomeProject> 
